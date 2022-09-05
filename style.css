@@ -99,6 +99,12 @@ label {
         background-color: #262e38;
     width: 25px;
     height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+label:hover{
+background-color:#fc6713;
 }
 .controls {
     display: flex;
@@ -107,6 +113,7 @@ label {
 }
 input[type=radio]{
     opacity: 0;
+    width:1px;
 }
 .succes {
     display: block;
