@@ -8,6 +8,7 @@
 .main {
     background: #141519;
     height: 100vh;
+    display: flex;
 
 }
 .container {
